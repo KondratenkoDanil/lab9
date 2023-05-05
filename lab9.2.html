@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html, body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            background-color: whitesmoke;
+        }
+
+        .header {
+            width: 100%;
+            height: 50px;
+            background-color: rgb(53, 53, 53);
+        }
+
+        .header .navbar .navlist {
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            margin: 0;
+            padding: 10px;
+        }
+
+        .header .navbar .navlist .navitem {
+            margin: 5px;
+        }
+
+        .header .navbar .navlist .navitem a {
+            text-decoration: none;
+            color: whitesmoke;
+            font-family:'Segoe UI';
+            font-size: 18px;
+        }
+        .main {
+            flex: 1;
+            padding-left: 5px;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: 600;
+        }
+
+        .footer {
+            width: 100%;
+            height: 50px;
+            background-color: rgb(53, 53, 53);
+            display: flex;
+            color: whitesmoke;
+            font-weight: 500;
+            font-size: 15px;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <ol class="navlist">
+                <li class="navitem"><a href="">Home</a></li>
+                <li class="navitem"><a href="">About</a></li>
+                <li class="navitem"><a href="">Services</a></li>
+                <li class="navitem"><a href="">Projects</a></li>
+            </ol>
+        </nav>
+    </header>
+
+    <main class="main">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus optio, iusto corporis facilis temporibus aliquid ab dolor ex vel soluta. Id, officia exercitationem? Aspernatur, iste laudantium. Aut iure inventore molestias.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus optio, iusto corporis facilis temporibus aliquid ab dolor ex vel soluta. Id, officia exercitationem? Aspernatur, iste laudantium. Aut iure inventore molestias.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus optio, iusto corporis facilis temporibus aliquid ab dolor ex vel soluta. Id, officia exercitationem? Aspernatur, iste laudantium. Aut iure inventore molestias.</p>
+    </main>
+
+    <footer class="footer">
+        <div>
+            Kondratenko 2023
+        </div>
+    </footer>
+</body>
+</html>
